@@ -17,10 +17,6 @@ namespace Salon.Data.Entities
 		[MaxLength(1024)]
 		public string ImageUrl { get; set; }
 
-		[Required]
-		[MaxLength(1024)]
-		public string Collection { get; set; }
-
 		public bool IsTitleVisible { get; set; }
 
 		public bool IsDeleted { get; set; } = false;
